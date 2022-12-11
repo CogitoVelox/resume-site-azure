@@ -188,3 +188,18 @@
 			});
 
 })(jQuery);
+
+const btn = document.getElementById("menu-btn");
+const nav = document.getElementById("menu");
+// const navItem = document.querySelectorAll("#menu a");
+// const dataAosDelay = document.querySelectorAll("[data-aos-delay]");
+btn.addEventListener("click", () => {
+  btn.classList.toggle("open");
+  nav.classList.toggle("flex");
+  nav.classList.toggle("hidden");
+});
+nav.addEventListener("click", () => {
+  btn.classList.remove("open");
+  nav.classList.remove("flex");
+  nav.classList.add("hidden");
+});
