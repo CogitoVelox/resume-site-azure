@@ -17,6 +17,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
+  scroll-behavior: smooth;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -3070,6 +3071,18 @@ input, select, textarea {
 		.spotlights > section:nth-child(3) {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.3);
+		}
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+		.spotlights > section:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.5);
+		}
 
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
@@ -3907,3 +3920,32 @@ input, select, textarea {
 			}
 
 		}
+
+
+    /* Custom CSS */
+
+    @media screen and (min-width: 0px) {
+      #alex {
+        display: block;
+        background-image: url("/src/images/alexH.webp");
+        width: 120px;
+        height: 120px;
+        background-size: cover;
+        border-radius: 50%;
+        margin: 2rem 0;
+      }
+    }
+    
+    @media screen and (min-width: 768px) {
+      #alex {
+        width: 250px;
+        height: 250px;
+        margin: 5rem 0;
+      }
+    }
+
+
+    .alexHeading {
+      display: flex;
+      align-items: start;
+    }
