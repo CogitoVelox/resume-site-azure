@@ -3949,3 +3949,11 @@ input, select, textarea {
       display: flex;
       align-items: start;
     }
+
+    .learnMore {
+      padding-left: 0;
+    }
+
+    .learnMore > li{
+      list-style: none;
+    }
