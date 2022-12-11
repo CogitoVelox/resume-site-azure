@@ -4151,6 +4151,9 @@ body.is-preload #sidebar nav ul li {
   border: none !important;
   z-index: 10001;
   position: fixed;
+  padding: 0;
+  width:24px;
+  height: 24px;
 }
 
 #menu-btn:hover{
