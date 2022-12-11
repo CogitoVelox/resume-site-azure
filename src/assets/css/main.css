@@ -3964,3 +3964,6 @@ input, select, textarea {
     .form {
       margin: auto;
     }
+    .copyright li {
+      color: rgba(255,255,255,.8);
+    }
