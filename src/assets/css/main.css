@@ -3967,3 +3967,6 @@ input, select, textarea {
     .copyright li {
       color: rgba(255,255,255,.8);
     }
+    #footer .inner ul {
+      text-align: center;
+    }
