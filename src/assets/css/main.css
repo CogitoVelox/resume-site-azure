@@ -3927,7 +3927,7 @@ input, select, textarea {
     @media screen and (min-width: 0px) {
       #alex {
         display: block;
-        background-image: url("/src/images/alexH.webp");
+        background-image: url("/images/alexH.webp");
         width: 120px;
         height: 120px;
         background-size: cover;
