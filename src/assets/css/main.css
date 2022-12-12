@@ -4127,7 +4127,7 @@ iframe{
   display: none;
 }
 #menu {
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -4143,7 +4143,7 @@ iframe{
 #menu ul {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
   text-align: center;
   padding: 0;
 }
