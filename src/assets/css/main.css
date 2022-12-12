@@ -4054,8 +4054,12 @@ body.is-preload #sidebar nav ul li {
 /* Custom CSS */
 
 iframe{
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
+}
+
+.image.fit  {
+  text-align: center;
 }
 
 @media screen and (min-width: 0px) {
