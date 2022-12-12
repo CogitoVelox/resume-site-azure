@@ -4053,6 +4053,11 @@ body.is-preload #sidebar nav ul li {
 
 /* Custom CSS */
 
+iframe{
+    width: 80%;
+    max-width: 1200px;
+}
+
 @media screen and (min-width: 0px) {
   #alex {
     display: block;
