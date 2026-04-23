@@ -179,7 +179,14 @@
         <div class="content">
           <div class="inner">
             <h2>Game Jams</h2>
-            <p>For the last 3 years Alex has participated in the Global Game Jam, the world's largest game jam hackathon. His team have built three games, but don't judge too harshly, they only had one weekend!</p>
+            <p>For the last <span id="gamejam-years"></span> years Alex has participated in the Global Game Jam, the world's largest game jam hackathon. His team have built <span id="gamejam-count"></span> games, but don't judge too harshly, they only had one weekend!</p>
+            <script>
+              (function() {
+                var years = new Date().getFullYear() - 2020 + 1;
+                document.getElementById('gamejam-years').textContent = years;
+                document.getElementById('gamejam-count').textContent = years;
+              })();
+            </script>
             <ul class="actions">
               <li><a aria-label="play the games" href="gamejams.html" class="button">Play the Games</a></li>
             </ul>
