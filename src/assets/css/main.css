@@ -4342,3 +4342,13 @@ video.image.fit {
 	display: inline-block;
 	margin: 0.25rem 0.5rem 0 0;
 }
+
+/* Captions */
+
+.caption {
+	font-size: calc(1em - 2pt);
+	font-style: italic;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+}
